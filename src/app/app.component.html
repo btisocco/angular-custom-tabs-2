@@ -1,0 +1,11 @@
+<ngx-tabs (idxTab)="changeTab($event)">
+  <ngx-tab tabTitle="asd">
+    <app-tab2 *ngIf="idxTab == 0" [title]="techs[idxTab]"></app-tab2>
+  </ngx-tab>
+  <ngx-tab tabTitle="Two">
+    <app-tab2 *ngIf="idxTab == 1" [title]="techs[idxTab]"></app-tab2>
+  </ngx-tab>
+  <ngx-tab tabTitle="Three">
+    <app-tab2 *ngIf="idxTab == 2" [title]="techs[idxTab]"></app-tab2>
+  </ngx-tab>
+</ngx-tabs>

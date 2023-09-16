@@ -1,0 +1,7 @@
+/* Add application styles & imports to this file! */
+body {
+  padding: 10px;
+}
+*{
+  box-sizing: border-box;
+}
